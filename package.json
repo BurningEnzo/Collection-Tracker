@@ -1,0 +1,20 @@
+{
+  "name": "collection-tracker",
+  "version": "0.0.1",
+  "description": "Proyecto TFG. Gestor de colecciones de videojuegos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurningEnzo/Collection-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BurningEnzo/Collection-Tracker/issues"
+  },
+  "homepage": "https://github.com/BurningEnzo/Collection-Tracker#readme"
+}
