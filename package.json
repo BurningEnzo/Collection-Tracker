@@ -1,9 +1,10 @@
 {
   "name": "collection-tracker",
   "version": "0.0.1",
-  "description": "Proyecto TFG. Gestor de colecciones de videojuegos.",
+  "description": "Video Game Collection Tracker",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,10 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/BurningEnzo/Collection-Tracker.git"
   },
-  "author": "",
+  "author": "Lorenzo Tomás",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BurningEnzo/Collection-Tracker/issues"
   },
-  "homepage": "https://github.com/BurningEnzo/Collection-Tracker#readme"
+  "homepage": "https://github.com/BurningEnzo/Collection-Tracker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
