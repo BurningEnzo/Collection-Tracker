@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8f0cdbc1-b2c2-4834-ad10-4dbb0b3f79a1/resourceGroups/TFG/providers/Microsoft.Web/sites/CollectionTracker",
+    "appService.deploySubpath": "."
+}
